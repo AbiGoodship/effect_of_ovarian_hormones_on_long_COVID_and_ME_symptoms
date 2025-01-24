@@ -55,7 +55,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
                            contraception_table, gravidity_table, parity_table)
   
   # Save the final table as a CSV file
-  write.csv(final_table, "demographics_table.csv", row.names = FALSE)
+  write.csv(final_table, "figures_and_tables/Main_manuscript/demographics_table.csv", row.names = FALSE)
   
   #'*Prepare data for Figure 2B-G and negative binomial mixed effects regression model*
   
@@ -116,7 +116,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
          y = "Frequency") +
     theme_pubr() + common_theme
   
-  ggsave("Mean_symptom_scores_histogram.svg", plot = Mean_symptom_scores_histogram, width = 6, height = 5, units = "cm")
+  ggsave("figures_and_tables/Main_manuscript/Mean_symptom_scores_histogram.svg", plot = Mean_symptom_scores_histogram, width = 6, height = 5, units = "cm")
   
   # Calculate the mean and variance 
   mean_symptom_score_mean <- mean(Mean_symptoms_scores_users$mean_symptom_score, na.rm = TRUE)
@@ -161,7 +161,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = c(16.2, 18.0)) 
   
-  ggsave("scatter_plot_phase_symptom_score.svg", plot = scatter_plot_phase_symptom_score, width = 6, height = 5, units = "cm")
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score.svg", plot = scatter_plot_phase_symptom_score, width = 6, height = 5, units = "cm")
   
   #Perform Friedman test
   Filtered_mean_symptom_scores$user_id_pk <- factor(Filtered_mean_symptom_scores$user_id_pk)
@@ -195,7 +195,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = y_axis_limits)
   
-  ggsave("scatter_plot_phase_symptom_score_disease_only.svg", 
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score_disease_only.svg", 
          plot = scatter_plot_phase_symptom_score_disease_only, width = 6, height = 5, units = "cm")
   
   # Kruskal-Wallis test to compare symptom scores between disease types
@@ -232,7 +232,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = y_axis_limits)
   
-  ggsave("scatter_plot_phase_symptom_score_contraception_only.svg", 
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score_contraception_only.svg", 
          plot = scatter_plot_phase_symptom_score_contraception_only, width = 6, height = 5, units = "cm")
   
   # Kruskal-Wallis test to compare symptom scores between contraception types
@@ -269,7 +269,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = y_axis_limits)
   
-  ggsave("scatter_plot_phase_symptom_score_quarters_only.svg", 
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score_quarters_only.svg", 
          plot = scatter_plot_phase_symptom_score_quarters_only, width = 6, height = 5, units = "cm")
   
   # Kruskal-Wallis test to compare symptom scores between quarters
@@ -307,7 +307,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = y_axis_limits)
   
-  ggsave("scatter_plot_phase_symptom_score_gravidity_only.svg", 
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score_gravidity_only.svg", 
          plot = scatter_plot_phase_symptom_score_gravidity_only, width = 6, height = 5, units = "cm")
   
   # Wilcoxon rank-sum test
@@ -338,7 +338,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = y_axis_limits)
   
-  ggsave("scatter_plot_phase_symptom_score_age_only.svg", 
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_symptom_score_age_only.svg", 
          plot = scatter_plot_phase_symptom_score_age_only, width = 6, height = 5, units = "cm")
   
   # Kruskal-Wallis test to compare symptom scores between age categories
@@ -407,7 +407,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
     theme_pubr() + common_theme +
     scale_y_continuous(limits = c(19, 25)) 
   
-  ggsave("scatter_plot_phase_crash.svg", plot = scatter_plot_phase_crash, width = 6, height = 5, units = "cm")
+  ggsave("figures_and_tables/Main_manuscript/scatter_plot_phase_crash.svg", plot = scatter_plot_phase_crash, width = 6, height = 5, units = "cm")
   
   #'*Table 2 - Negative binomial mixed effects regression model for overall symptom score*
   
@@ -416,7 +416,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
   overall_symptom_scores_model_all_cycles_quarters <- glmer.nb(overall_score ~ Menstrual_phase + age_category + disease_type_simple + Contraception_type + nulligravida + quarters_post_joining + (1 | user_id_pk), 
                                                                data = Overall_symptom_scores_model_data_user_info_model)
   
-  saveRDS(overall_symptom_scores_model_all_cycles_quarters, file = "overall_symptom_scores_model_all_cycles_quarters.rds")
+  saveRDS(overall_symptom_scores_model_all_cycles_quarters, file = "figures_and_tables/Models/overall_symptom_scores_model_all_cycles_quarters.rds")
   
   summary(overall_symptom_scores_model_all_cycles_quarters)
   
@@ -440,7 +440,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
   overall_symptom_scores_model_all_cycles_quarters_fixed_effects$P_value <- signif(overall_symptom_scores_model_all_cycles_quarters_fixed_effects$P_value, 3)
   
   # Save fixed effects as CSV files
-  write.csv(overall_symptom_scores_model_all_cycles_quarters_fixed_effects, "overall_symptom_scores_model_all_cycles_quarters_fixed_effects_table.csv", row.names = FALSE)
+  write.csv(overall_symptom_scores_model_all_cycles_quarters_fixed_effects, "figures_and_tables/Main_manuscript/overall_symptom_scores_model_all_cycles_quarters_fixed_effects_table.csv", row.names = FALSE)
   
   #'*Table 3 - Binomial mixed effects regression model for crashes*
   
@@ -448,7 +448,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
   crash_model_all_cycles_quarters <- glmer(observation_value ~ Menstrual_phase + age_category + disease_type_simple + Contraception_type + nulligravida + quarters_post_joining + (1 | user_id_pk),
                                            data = Crash_model_data_user_info_model, 
                                            family = binomial(link = "logit"))
-  saveRDS(crash_model_all_cycles_quarters, file = "crash_model_all_cycles_quarters.rds")
+  saveRDS(crash_model_all_cycles_quarters, file = "figures_and_tables/Models/crash_model_all_cycles_quarters.rds")
   summary(crash_model_all_cycles_quarters)
   
   # Extract fixed effects
@@ -471,7 +471,7 @@ if(file.exists('Cleaned_model_user_info_all.rds'))
   crash_model_all_cycles_quarters_fixed_effects$P_value <- signif(crash_model_all_cycles_quarters_fixed_effects$P_value, 3)
   
   # Save fixed effects as CSV files
-  write.csv(crash_model_all_cycles_quarters_fixed_effects, "crash_model_all_cycles_quarters_fixed_effects_table.csv", row.names = FALSE)
+  write.csv(crash_model_all_cycles_quarters_fixed_effects, "figures_and_tables/Main_manuscript/crash_model_all_cycles_quarters_fixed_effects_table.csv", row.names = FALSE)
 } else {
   print("If you would like to request these files for scientific purposes, contact Visible Health Inc at info@makevisible.com and Abigail Goodship at abigail.goodship21@imperial.ac.uk")
 }
