@@ -1,0 +1,5 @@
+"Comparison","p.value","p.adjust","formatted_p.adjust","asterisks"
+"Menstrual : Follicular",0.000378,0.000945,"0.0009450","***"
+"Menstrual : Early luteal",6.78e-07,3.39e-06,"0.000003390","****"
+"Menstrual : Late luteal",3.86e-07,3.39e-06,"0.000003390","****"
+"Menstrual : Premenstrual",4.25e-05,0.000142,"0.0001420","***"

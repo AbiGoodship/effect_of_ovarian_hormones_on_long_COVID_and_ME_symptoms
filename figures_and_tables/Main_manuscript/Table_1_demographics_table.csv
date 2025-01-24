@@ -1,0 +1,27 @@
+"Variable","Subgroup","Count","Percentage"
+"gender_id","Non-binary",61,6.4
+"gender_id","Prefer not to say",6,0.6
+"gender_id","Prefer to self-describe",3,0.3
+"gender_id","Woman",878,92.6
+"disabled","false",944,99.6
+"disabled","true",4,0.4
+"disease_type_simple","Long COVID",431,45.5
+"disease_type_simple","Long COVID and ME/CFS",188,19.8
+"disease_type_simple","ME/CFS",329,34.7
+"age_category","<30",179,18.9
+"age_category","≥40",369,38.9
+"age_category","30-39",400,42.2
+"answer","Combined pill",66,7
+"answer","Contraceptive implant",18,1.9
+"answer","Contraceptive patch",4,0.4
+"answer","IUS",52,5.5
+"answer","None",786,82.9
+"answer","Progesterone only pill",22,2.3
+"answer","0",617,65.1
+"answer","1",87,9.2
+"answer","2",132,13.9
+"answer","3",112,11.8
+"answer","0",687,72.5
+"answer","1",71,7.5
+"answer","2",135,14.2
+"answer","3",55,5.8

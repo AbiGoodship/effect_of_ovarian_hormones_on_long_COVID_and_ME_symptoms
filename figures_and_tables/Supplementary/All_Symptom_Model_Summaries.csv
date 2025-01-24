@@ -1,0 +1,254 @@
+All_Symptom_Model_Summaries
+Effect,Estimate,Std. Error,z value,Pr(>|z|),Symptom
+0|1,0.611,0.125,4.88,1.08E-06,Acid_Reflux
+1|2,2.98,0.126,23.6,1.1E-122,Acid_Reflux
+2|3,5.18,0.131,39.6,0E+00,Acid_Reflux
+Menstrual_phaseFollicular,0.0318,0.0359,0.886,3.76E-01,Acid_Reflux
+Menstrual_phaseEarly luteal,0.191,0.0373,5.12,3.09E-07,Acid_Reflux
+Menstrual_phaseLate luteal,0.22,0.0402,5.48,4.32E-08,Acid_Reflux
+Menstrual_phasePremenstrual,0.101,0.054,1.87,6.19E-02,Acid_Reflux
+0|1,-0.411,0.145,-2.83,4.64E-03,Allergies
+1|2,2.26,0.146,15.5,2.61E-54,Allergies
+2|3,4.9,0.15,32.6,1.14E-233,Allergies
+Menstrual_phaseFollicular,0.0176,0.0363,0.484,6.29E-01,Allergies
+Menstrual_phaseEarly luteal,0.037,0.0378,0.979,3.28E-01,Allergies
+Menstrual_phaseLate luteal,0.192,0.0405,4.74,2.15E-06,Allergies
+Menstrual_phasePremenstrual,0.184,0.0536,3.43,6.13E-04,Allergies
+0|1,0.841,0.341,2.47,1.35E-02,Altered_smell
+1|2,4.45,0.343,12.9,2.59E-38,Altered_smell
+2|3,7.73,0.355,21.8,6.58E-105,Altered_smell
+Menstrual_phaseFollicular,0.0306,0.0639,0.479,6.32E-01,Altered_smell
+Menstrual_phaseEarly luteal,0.0742,0.0663,1.12,2.63E-01,Altered_smell
+Menstrual_phaseLate luteal,0.0113,0.0719,0.157,8.75E-01,Altered_smell
+Menstrual_phasePremenstrual,0.0789,0.0961,0.821,4.11E-01,Altered_smell
+0|1,0.924,0.378,2.44,1.45E-02,Altered_taste
+1|2,4.48,0.381,11.7,7.71E-32,Altered_taste
+2|3,7.73,0.39,19.8,2.37E-87,Altered_taste
+Menstrual_phaseFollicular,0.0413,0.0684,0.603,5.46E-01,Altered_taste
+Menstrual_phaseEarly luteal,0.0141,0.0712,0.198,8.43E-01,Altered_taste
+Menstrual_phaseLate luteal,0.163,0.0765,2.12,3.36E-02,Altered_taste
+Menstrual_phasePremenstrual,0.102,0.103,0.995,3.2E-01,Altered_taste
+0|1,-1.07,0.0906,-11.8,5.76E-32,Anxiety
+1|2,1.44,0.0907,15.9,1.39E-56,Anxiety
+2|3,3.71,0.0921,40.2,0E+00,Anxiety
+Menstrual_phaseFollicular,-0.0222,0.0234,-0.95,3.42E-01,Anxiety
+Menstrual_phaseEarly luteal,-0.0442,0.0245,-1.8,7.11E-02,Anxiety
+Menstrual_phaseLate luteal,0.0317,0.0264,1.2,2.31E-01,Anxiety
+Menstrual_phasePremenstrual,0.13,0.0354,3.67,2.38E-04,Anxiety
+0|1,-1.22,0.0986,-12.4,2.27E-35,Blurred_vision
+1|2,1.95,0.0979,19.9,4.61E-88,Blurred_vision
+2|3,4.52,0.0992,45.5,0E+00,Blurred_vision
+Menstrual_phaseFollicular,-0.00358,0.0308,-0.116,9.08E-01,Blurred_vision
+Menstrual_phaseEarly luteal,-0.157,0.0322,-4.87,1.14E-06,Blurred_vision
+Menstrual_phaseLate luteal,-0.14,0.0348,-4.01,6.03E-05,Blurred_vision
+Menstrual_phasePremenstrual,-0.00234,0.0464,-0.0505,9.6E-01,Blurred_vision
+0|1,-2.71,0.0898,-30.2,4.66E-200,Brain_Fog
+1|2,0.482,0.0894,5.39,7.04E-08,Brain_Fog
+2|3,3.46,0.0903,38.3,0E+00,Brain_Fog
+Menstrual_phaseFollicular,-0.059,0.0188,-3.13,1.73E-03,Brain_Fog
+Menstrual_phaseEarly luteal,-0.161,0.0197,-8.19,2.57E-16,Brain_Fog
+Menstrual_phaseLate luteal,-0.131,0.0213,-6.15,7.66E-10,Brain_Fog
+Menstrual_phasePremenstrual,-0.0635,0.0284,-2.23,2.55E-02,Brain_Fog
+0|1,-0.211,0.121,-1.75,7.99E-02,Chest_pain
+1|2,2.39,0.121,19.7,2.75E-86,Chest_pain
+2|3,4.94,0.124,39.9,0E+00,Chest_pain
+Menstrual_phaseFollicular,0.0519,0.0283,1.83,6.65E-02,Chest_pain
+Menstrual_phaseEarly luteal,-0.000598,0.0296,-0.0202,9.84E-01,Chest_pain
+Menstrual_phaseLate luteal,0.108,0.0319,3.39,6.87E-04,Chest_pain
+Menstrual_phasePremenstrual,0.028,0.0428,0.655,5.12E-01,Chest_pain
+0|1,0.587,0.0965,6.08,1.17E-09,Constipation
+1|2,2.46,0.0972,25.3,7.87E-141,Constipation
+2|3,4.45,0.1,44.5,0E+00,Constipation
+Menstrual_phaseFollicular,0.137,0.0295,4.66,3.24E-06,Constipation
+Menstrual_phaseEarly luteal,0.297,0.0306,9.69,3.31E-22,Constipation
+Menstrual_phaseLate luteal,0.354,0.0329,10.8,5.91E-27,Constipation
+Menstrual_phasePremenstrual,0.165,0.0441,3.73,1.91E-04,Constipation
+0|1,0.286,0.125,2.29,2.2E-02,Cough
+1|2,2.65,0.126,21,8.54E-98,Cough
+2|3,4.77,0.131,36.5,3.23E-291,Cough
+Menstrual_phaseFollicular,-0.0706,0.0366,-1.93,5.33E-02,Cough
+Menstrual_phaseEarly luteal,-0.0401,0.0379,-1.06,2.9E-01,Cough
+Menstrual_phaseLate luteal,0.123,0.0408,3.03,2.45E-03,Cough
+Menstrual_phasePremenstrual,0.00491,0.0547,0.0898,9.28E-01,Cough
+0|1,-0.424,0.0984,-4.31,1.64E-05,Depression
+1|2,1.87,0.0988,18.9,1.47E-79,Depression
+2|3,4.01,0.101,39.8,0E+00,Depression
+Menstrual_phaseFollicular,-0.0959,0.0267,-3.6,3.21E-04,Depression
+Menstrual_phaseEarly luteal,-0.231,0.028,-8.25,1.58E-16,Depression
+Menstrual_phaseLate luteal,-0.164,0.0303,-5.42,6.12E-08,Depression
+Menstrual_phasePremenstrual,0.00814,0.0402,0.202,8.4E-01,Depression
+0|1,-0.0489,0.228,-0.215,8.3E-01,Derealization
+1|2,2.31,0.228,10.1,5.38E-24,Derealization
+2|3,4.85,0.232,20.9,5.81E-97,Derealization
+Menstrual_phaseFollicular,0.0315,0.047,0.669,5.04E-01,Derealization
+Menstrual_phaseEarly luteal,-0.0577,0.0492,-1.17,2.41E-01,Derealization
+Menstrual_phaseLate luteal,-0.107,0.0533,-2.01,4.42E-02,Derealization
+Menstrual_phasePremenstrual,0.0222,0.0714,0.311,7.56E-01,Derealization
+0|1,0.997,0.0764,13.1,5.74E-39,Diarrhea
+1|2,2.68,0.0773,34.6,1.19E-262,Diarrhea
+2|3,4.48,0.0815,54.9,0E+00,Diarrhea
+Menstrual_phaseFollicular,-0.183,0.0286,-6.4,1.52E-10,Diarrhea
+Menstrual_phaseEarly luteal,-0.318,0.0302,-10.5,7.07E-26,Diarrhea
+Menstrual_phaseLate luteal,-0.366,0.033,-11.1,1.76E-28,Diarrhea
+Menstrual_phasePremenstrual,-0.209,0.0438,-4.77,1.8E-06,Diarrhea
+0|1,-0.524,0.0946,-5.54,2.95E-08,Dizziness
+1|2,2.11,0.0949,22.3,9.58E-110,Dizziness
+2|3,4.46,0.0967,46.2,0E+00,Dizziness
+Menstrual_phaseFollicular,0.00344,0.023,0.149,8.81E-01,Dizziness
+Menstrual_phaseEarly luteal,-0.171,0.0241,-7.11,1.12E-12,Dizziness
+Menstrual_phaseLate luteal,-0.092,0.026,-3.54,4.02E-04,Dizziness
+Menstrual_phasePremenstrual,-0.0348,0.0346,-1.01,3.14E-01,Dizziness
+0|1,-4.64,0.0692,-67,0E+00,Fatigue
+1|2,-1.26,0.0668,-18.9,1.02E-79,Fatigue
+2|3,1.64,0.0669,24.5,1.05E-132,Fatigue
+Menstrual_phaseFollicular,-0.0548,0.0174,-3.14,1.7E-03,Fatigue
+Menstrual_phaseEarly luteal,-0.151,0.0183,-8.26,1.47E-16,Fatigue
+Menstrual_phaseLate luteal,-0.0969,0.0197,-4.91,9.07E-07,Fatigue
+Menstrual_phasePremenstrual,-0.0883,0.0264,-3.35,8.22E-04,Fatigue
+0|1,1.05,0.162,6.5,8.11E-11,Fever
+1|2,3.46,0.164,21.1,1.04E-98,Fever
+2|3,5.79,0.171,33.9,1.08E-251,Fever
+Menstrual_phaseFollicular,-0.266,0.0457,-5.83,5.54E-09,Fever
+Menstrual_phaseEarly luteal,-0.131,0.0474,-2.77,5.57E-03,Fever
+Menstrual_phaseLate luteal,0.135,0.0503,2.69,7.1E-03,Fever
+Menstrual_phasePremenstrual,0.141,0.0665,2.12,3.42E-02,Fever
+0|1,-1.28,0.0638,-20,5.66E-89,Headache
+1|2,1.11,0.0638,17.4,5.69E-68,Headache
+2|3,3.46,0.0652,53,0E+00,Headache
+Menstrual_phaseFollicular,-0.149,0.0183,-8.14,4.12E-16,Headache
+Menstrual_phaseEarly luteal,-0.591,0.0194,-30.5,1.19E-204,Headache
+Menstrual_phaseLate luteal,-0.543,0.0209,-25.9,5.4E-148,Headache
+Menstrual_phasePremenstrual,-0.249,0.0278,-8.97,2.85E-19,Headache
+0|1,-2.21,0.128,-17.2,3.13E-66,Joint_pain
+1|2,0.814,0.128,6.35,2.17E-10,Joint_pain
+2|3,3.72,0.13,28.7,5.81E-181,Joint_pain
+Menstrual_phaseFollicular,-0.0779,0.0239,-3.26,1.11E-03,Joint_pain
+Menstrual_phaseEarly luteal,-0.0969,0.0247,-3.92,8.93E-05,Joint_pain
+Menstrual_phaseLate luteal,-0.0501,0.0267,-1.87,6.1E-02,Joint_pain
+Menstrual_phasePremenstrual,-0.0108,0.0355,-0.304,7.61E-01,Joint_pain
+0|1,-0.0216,-0.0208,0.114,-0.183,Lack_of_appetite
+1|2,2.21,2.21,0.115,19.3,Lack_of_appetite
+2|3,4.57,4.57,0.117,38.9,Lack_of_appetite
+Menstrual_phaseFollicular,0.126,0.126,0.0299,4.22,Lack_of_appetite
+Menstrual_phaseEarly luteal,-0.0997,-0.0996,0.0315,-3.16,Lack_of_appetite
+Menstrual_phaseLate luteal,-0.329,-0.329,0.0345,-9.55,Lack_of_appetite
+Menstrual_phasePremenstrual,-0.257,-0.257,0.0461,-5.58,Lack_of_appetite
+0|1,-1.4,0.118,-11.8,4.29E-32,Light_sensitivity
+1|2,1.71,0.119,14.4,3.25E-47,Light_sensitivity
+2|3,4.52,0.12,37.6,0E+00,Light_sensitivity
+Menstrual_phaseFollicular,-0.0245,0.024,-1.02,3.08E-01,Light_sensitivity
+Menstrual_phaseEarly luteal,-0.165,0.0252,-6.56,5.53E-11,Light_sensitivity
+Menstrual_phaseLate luteal,-0.159,0.0272,-5.85,4.85E-09,Light_sensitivity
+Menstrual_phasePremenstrual,-0.0829,0.0364,-2.28,2.27E-02,Light_sensitivity
+0|1,-0.954,0.117,-8.15,3.64E-16,Lightheadedness
+1|2,1.81,0.117,15.4,1.52E-53,Lightheadedness
+2|3,4.37,0.119,36.6,1.5E-292,Lightheadedness
+Menstrual_phaseFollicular,-0.0784,0.0284,-2.76,5.87E-03,Lightheadedness
+Menstrual_phaseEarly luteal,-0.196,0.0296,-6.63,3.42E-11,Lightheadedness
+Menstrual_phaseLate luteal,-0.136,0.0319,-4.27,1.93E-05,Lightheadedness
+Menstrual_phasePremenstrual,-0.164,0.0427,-3.85,1.18E-04,Lightheadedness
+0|1,-1.92,0.00402,-478,0E+00,Memory_issues
+1|2,1.57,0.00254,620,0E+00,Memory_issues
+2|3,4.69,0.00451,1040,0E+00,Memory_issues
+Menstrual_phaseFollicular,-0.0847,0.00386,-21.9,1.56E-106,Memory_issues
+Menstrual_phaseEarly luteal,-0.123,0.00411,-30,3.99E-197,Memory_issues
+Menstrual_phaseLate luteal,-0.0675,0.00404,-16.7,1.54E-62,Memory_issues
+Menstrual_phasePremenstrual,0.00249,0.00407,0.612,5.41E-01,Memory_issues
+0|1,1.3,0.103,12.7,4.95E-37,Migraine
+1|2,2.84,0.104,27.5,6.68E-166,Migraine
+2|3,4.58,0.107,42.8,0E+00,Migraine
+Menstrual_phaseFollicular,-0.182,0.0332,-5.48,4.18E-08,Migraine
+Menstrual_phaseEarly luteal,-0.585,0.0359,-16.3,1.34E-59,Migraine
+Menstrual_phaseLate luteal,-0.582,0.0392,-14.8,8.6E-50,Migraine
+Menstrual_phasePremenstrual,-0.297,0.0514,-5.77,7.9E-09,Migraine
+0|1,-2.76,0.0942,-29.3,6.31E-189,Muscle_aches
+1|2,0.288,0.0937,3.07,2.14E-03,Muscle_aches
+2|3,3.19,0.0944,33.8,6.34E-251,Muscle_aches
+Menstrual_phaseFollicular,-0.112,0.02,-5.57,2.48E-08,Muscle_aches
+Menstrual_phaseEarly luteal,-0.162,0.0209,-7.76,8.41E-15,Muscle_aches
+Menstrual_phaseLate luteal,-0.0748,0.0226,-3.31,9.2E-04,Muscle_aches
+Menstrual_phasePremenstrual,-0.0573,0.03,-1.91,5.65E-02,Muscle_aches
+0|1,-2.24,0.11,-20.4,2.35E-92,Muscle_weakness
+1|2,0.758,0.11,6.9,5.04E-12,Muscle_weakness
+2|3,3.69,0.111,33.3,6.09E-243,Muscle_weakness
+Menstrual_phaseFollicular,-0.0656,0.023,-2.85,4.31E-03,Muscle_weakness
+Menstrual_phaseEarly luteal,-0.0846,0.024,-3.53,4.22E-04,Muscle_weakness
+Menstrual_phaseLate luteal,-0.0194,0.0259,-0.748,4.55E-01,Muscle_weakness
+Menstrual_phasePremenstrual,-0.0728,0.0346,-2.1,3.55E-02,Muscle_weakness
+0|1,0.303,0.08,3.79,1.48E-04,Nausea
+1|2,2.41,0.0806,29.9,9.44E-197,Nausea
+2|3,4.57,0.0835,54.7,0E+00,Nausea
+Menstrual_phaseFollicular,0.0375,0.0245,1.53,1.25E-01,Nausea
+Menstrual_phaseEarly luteal,-0.0976,0.0257,-3.8,1.47E-04,Nausea
+Menstrual_phaseLate luteal,-0.151,0.0279,-5.41,6.34E-08,Nausea
+Menstrual_phasePremenstrual,-0.0831,0.0372,-2.23,2.56E-02,Nausea
+0|1,-1.02,0.169,-6.04,1.57E-09,Nerve_pain
+1|2,2.04,0.169,12.1,1.22E-33,Nerve_pain
+2|3,4.84,0.171,28.3,2.31E-176,Nerve_pain
+Menstrual_phaseFollicular,-0.0165,0.033,-0.5,6.17E-01,Nerve_pain
+Menstrual_phaseEarly luteal,-0.0614,0.0346,-1.77,7.59E-02,Nerve_pain
+Menstrual_phaseLate luteal,-0.0468,0.0373,-1.25,2.1E-01,Nerve_pain
+Menstrual_phasePremenstrual,0.0352,0.0496,0.71,4.78E-01,Nerve_pain
+0|1,-1.54,-1.51,0.0712,-21.3,Noise_sensitivity
+1|2,1.56,1.58,0.0707,22.4,Noise_sensitivity
+2|3,4.45,4.47,0.0707,63.3,Noise_sensitivity
+Menstrual_phaseFollicular,-0.0426,-0.0416,0.0222,-1.88,Noise_sensitivity
+Menstrual_phaseEarly luteal,-0.134,-0.133,0.0232,-5.73,Noise_sensitivity
+Menstrual_phaseLate luteal,-0.0777,-0.0768,0.0251,-3.06,Noise_sensitivity
+Menstrual_phasePremenstrual,-0.0498,-0.0481,0.0337,-1.43,Noise_sensitivity
+0|1,-0.107,0.187,-0.571,5.68E-01,Numbness
+1|2,3.19,0.188,16.9,2.91E-64,Numbness
+2|3,5.93,0.193,30.7,4.81E-207,Numbness
+Menstrual_phaseFollicular,0.00966,0.04,0.242,8.09E-01,Numbness
+Menstrual_phaseEarly luteal,0.0435,0.0417,1.04,2.97E-01,Numbness
+Menstrual_phaseLate luteal,0.0526,0.0451,1.17,2.44E-01,Numbness
+Menstrual_phasePremenstrual,0.0369,0.0602,0.612,5.4E-01,Numbness
+0|1,-0.76,0.0233,-32.7,7.51E-234,Palpitations
+1|2,2.01,0.0222,90.5,0E+00,Palpitations
+2|3,4.56,0.0248,184,0E+00,Palpitations
+Menstrual_phaseFollicular,0.0486,0.0173,2.81,4.94E-03,Palpitations
+Menstrual_phaseEarly luteal,0.081,0.018,4.51,6.43E-06,Palpitations
+Menstrual_phaseLate luteal,0.172,0.0192,8.99,2.54E-19,Palpitations
+Menstrual_phasePremenstrual,0.0823,0.0239,3.45,5.67E-04,Palpitations
+0|1,-0.293,-0.292,0.137,-2.13,Pins_and_Needles
+1|2,2.91,2.91,0.138,21.1,Pins_and_Needles
+2|3,5.43,5.43,0.141,38.5,Pins_and_Needles
+Menstrual_phaseFollicular,-0.0349,-0.035,0.0299,-1.17,Pins_and_Needles
+Menstrual_phaseEarly luteal,-0.0517,-0.0517,0.0314,-1.65,Pins_and_Needles
+Menstrual_phaseLate luteal,-0.0133,-0.0133,0.0338,-0.393,Pins_and_Needles
+Menstrual_phasePremenstrual,0.019,0.019,0.0451,0.422,Pins_and_Needles
+0|1,-0.922,0.0993,-9.28,1.65E-20,Shortness_of_breath
+1|2,1.86,0.0995,18.7,3.25E-78,Shortness_of_breath
+2|3,4.53,0.101,44.8,0E+00,Shortness_of_breath
+Menstrual_phaseFollicular,-0.079,0.0225,-3.5,4.58E-04,Shortness_of_breath
+Menstrual_phaseEarly luteal,0.00656,0.0235,0.279,7.8E-01,Shortness_of_breath
+Menstrual_phaseLate luteal,0.171,0.0254,6.74,1.61E-11,Shortness_of_breath
+Menstrual_phasePremenstrual,0.127,0.0339,3.76,1.69E-04,Shortness_of_breath
+0|1,-0.339,0.0894,-3.8,1.47E-04,Sore_throat
+1|2,2.44,0.0901,27.1,9.14E-162,Sore_throat
+2|3,5.02,0.0946,53.1,0E+00,Sore_throat
+Menstrual_phaseFollicular,-0.064,0.0253,-2.53,1.14E-02,Sore_throat
+Menstrual_phaseEarly luteal,-0.0915,0.0264,-3.46,5.37E-04,Sore_throat
+Menstrual_phaseLate luteal,0.026,0.0284,0.916,3.59E-01,Sore_throat
+Menstrual_phasePremenstrual,0.0248,0.0378,0.656,5.12E-01,Sore_throat
+0|1,-0.415,0.095,-4.37,1.26E-05,Stomach_pain
+1|2,1.99,0.0955,20.9,8.58E-97,Stomach_pain
+2|3,4.24,0.0981,43.2,0E+00,Stomach_pain
+Menstrual_phaseFollicular,-0.382,0.0266,-14.4,9.57E-47,Stomach_pain
+Menstrual_phaseEarly luteal,-0.294,0.0277,-10.6,3.04E-26,Stomach_pain
+Menstrual_phaseLate luteal,-0.35,0.0301,-11.6,2.84E-31,Stomach_pain
+Menstrual_phasePremenstrual,-0.336,0.0402,-8.35,6.92E-17,Stomach_pain
+0|1,-1.97,0.164,-12,3.9E-33,Tinnitus
+1|2,1.64,0.164,9.99,1.75E-23,Tinnitus
+2|3,4.81,0.166,29.1,9.3E-186,Tinnitus
+Menstrual_phaseFollicular,-0.0138,0.0285,-0.485,6.28E-01,Tinnitus
+Menstrual_phaseEarly luteal,-0.0874,0.0298,-2.94,3.33E-03,Tinnitus
+Menstrual_phaseLate luteal,-0.0637,0.0321,-1.98,4.72E-02,Tinnitus
+Menstrual_phasePremenstrual,-0.0161,0.0429,-0.375,7.08E-01,Tinnitus
+0|1,-0.323,0.152,-2.12,3.4E-02,Tremors
+1|2,2.35,0.153,15.4,2.65E-53,Tremors
+2|3,4.8,0.156,30.8,6.04E-209,Tremors
+Menstrual_phaseFollicular,-0.0261,0.0356,-0.733,4.64E-01,Tremors
+Menstrual_phaseEarly luteal,-0.0219,0.0372,-0.59,5.55E-01,Tremors
+Menstrual_phaseLate luteal,0.0383,0.0402,0.952,3.41E-01,Tremors
+Menstrual_phasePremenstrual,0.146,0.0535,2.73,6.25E-03,Tremors

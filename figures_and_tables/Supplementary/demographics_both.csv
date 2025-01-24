@@ -1,0 +1,22 @@
+"Variable","Subgroup","Count","Percentage"
+"gender_id","Non-binary",14,7.4
+"gender_id","Prefer not to say",1,0.5
+"gender_id","Woman",173,92
+"disabled","false",187,99.5
+"disabled","true",1,0.5
+"age_category","<30",40,21.3
+"age_category","≥40",70,37.2
+"age_category","30-39",78,41.5
+"answer","Combined pill",10,5.3
+"answer","Contraceptive implant",2,1.1
+"answer","IUS",8,4.3
+"answer","None",162,86.2
+"answer","Progesterone only pill",6,3.2
+"answer","0",124,66
+"answer","1",17,9
+"answer","2",23,12.2
+"answer","3",24,12.8
+"answer","0",137,72.9
+"answer","1",16,8.5
+"answer","2",21,11.2
+"answer","3",14,7.4

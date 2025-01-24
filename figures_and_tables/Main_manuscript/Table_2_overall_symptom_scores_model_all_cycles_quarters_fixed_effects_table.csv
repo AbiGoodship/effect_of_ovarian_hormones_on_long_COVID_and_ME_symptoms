@@ -1,0 +1,18 @@
+"Variable","Incidence_rate_ratio","CI_lower","CI_upper","P_value"
+"(Intercept)",13,11,15.3,7.49e-209
+"Menstrual_phaseFollicular",0.985,0.981,0.99,6.49e-09
+"Menstrual_phaseEarly luteal",0.963,0.958,0.968,5.75e-46
+"Menstrual_phaseLate luteal",0.98,0.974,0.985,4.96e-13
+"Menstrual_phasePremenstrual",0.992,0.985,1,0.0425
+"age_category≥40",0.913,0.789,1.06,0.223
+"age_category30-39",0.982,0.86,1.12,0.79
+"disease_type_simpleLong COVID and ME/CFS",1.52,1.34,1.73,6.14e-11
+"disease_type_simpleME/CFS",1.21,1.09,1.35,0.000394
+"Contraception_typeProgestin only",0.985,0.839,1.15,0.848
+"Contraception_typeEstrogen & Progestin",0.827,0.69,0.992,0.041
+"nulligravida",0.911,0.815,1.02,0.0992
+"quarters_post_joining2",1.01,1,1.01,0.00207
+"quarters_post_joining3",1.01,1,1.02,0.000786
+"quarters_post_joining4",1.04,1.03,1.05,1.13e-29
+"quarters_post_joining5",1.06,1.05,1.06,7.78e-49
+"quarters_post_joining6",1.05,1.03,1.07,4.32e-05
