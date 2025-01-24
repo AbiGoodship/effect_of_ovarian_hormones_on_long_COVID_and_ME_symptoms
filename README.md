@@ -1,5 +1,7 @@
 # Digital health app data reveals an effect of ovarian hormones on long COVID and myalgic encephalomyelitis symptoms
 
+This code is provided for transparency with the manuscript "Digital health app data reveals an effect of ovarian hormones on long COVID and myalgic encephalomyelitis symptoms". While all data used in this analysis were anonymised, the individual-level nature of the data used risks individuals being identified or being able to self-identify if it is released publicly. However, the app data can be requested by bona fide researchers for specified scientific purposes by emailing Visible Health Inc at info@makevisible.com and Abigail Goodship at abigail.goodship21@imperial.ac.uk.
+
 **Background**
 Long COVID and myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) disproportionally affect females, suggesting modulation by sex hormones. We sought to investigate whether symptom severity is influenced by changes in sex hormones over the menstrual cycle, or from hormonal contraception. 
 
@@ -14,3 +16,4 @@ Menstruation is associated with worsened symptoms in long COVID and ME/CFS. User
 
 **Funding**
 UK Medical Research Council, NIHR, Community Jameel, the Eric and Wendy Schmidt Fund for Strategic Innovation, Bill & Melinda Gates Foundation, Borne, Action Medical Research, and Genesis Research Trust.
+
