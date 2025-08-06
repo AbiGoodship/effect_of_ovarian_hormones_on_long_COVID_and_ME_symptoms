@@ -300,7 +300,7 @@ if(file.exists("dim_001_userinfo__user-000000000000.csv"))
     mutate(observation_value = factor(observation_value),
            observation_date_pk = as.Date(observation_date_pk))
   
-  Menstrual_phase_data_all_cycles_within_range<- Imputed_data_complete_all_cycles_within_range %>%
+  Menstrual_phase_data_all_cycles_within_range <- Imputed_data_complete_all_cycles_within_range %>%
     group_by(cycle_id) %>%
     mutate(
       period_start_date = if_else(period_start, observation_date_pk, as.Date(NA)),
@@ -328,6 +328,49 @@ if(file.exists("dim_001_userinfo__user-000000000000.csv"))
              TRUE ~ "Follicular"
            ))
   
+  #'*Determine percentage of days that are imputed*
+
+  # A: Total number of days where observation_value was imputed
+  A <- sum(Imputed_data_complete_all_cycles_within_range$observation_value != 
+             Imputed_data_complete_all_cycles_within_range$observation_value_imputed)
+  
+  # B: Percentage of imputed days out of all days
+  B <- (A / nrow(Imputed_data_complete_all_cycles_within_range)) * 100
+  
+  nrow(Imputed_data_complete_all_cycles_within_range)
+  
+  # Print results
+  cat("Total imputed days (A):", A, "\n")
+  cat("Percentage of imputed days (B%):", round(B, 2), "%\n")
+  
+  # Ensure data is sorted by user and date
+  Imputed_data_check <- Imputed_data_complete_all_cycles_within_range %>%
+    arrange(user_id_pk, observation_date_pk)
+  
+  # Identify rows where the value was imputed
+  Imputed_data_check <- Imputed_data_check %>%
+    mutate(imputed = observation_value != observation_value_imputed)
+  
+  # Identify the previous day's reported value
+  Imputed_data_check <- Imputed_data_check %>%
+    group_by(user_id_pk) %>%
+    mutate(previous_day_bleeding = lag(observation_value == "1")) %>%
+    ungroup()
+  
+  # Find imputed days that follow a bleeding report
+  at_risk_days <- Imputed_data_check %>%
+    filter(imputed == TRUE & previous_day_bleeding == TRUE)
+  
+  # X: number of such days
+  X <- nrow(at_risk_days)
+  
+  # Y: percentage of all days
+  Y <- (X / nrow(Imputed_data_check)) * 100
+  
+  # Print results
+  cat("Days at risk of misassignment (X):", X, "\n")
+  cat("Percentage of all days (Y):", round(Y, 2), "%\n")
+
   #'*Integrate menstrual phase data with the original data set*
   
   #Add missing dates to app data
